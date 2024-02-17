@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Background Image Example</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("../dullimages/bagasse\ -\ Copy.jpg"); /* Replace 'your_image.jpg' with your image path */
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        color: white; /* Text color */
+    }
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .card {
+        width: 300px;
+        height: 70vh; /* 70% of viewport height */
+        background-color: white;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .card img {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .card-content {
+        padding: 15px;
+        color:black;
+    }
+
+    .card-content h3 {
+        margin-top: 0;
+    }
+
+    .card-content p {
+        margin-bottom: 0;
+    }
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh; /* 50% of viewport height */
+        padding: 50px;
+    }
+    .title {
+        text-align: center;
+        color: white;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    }
+    .info-container {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 600px; /* Limit width for better readability */
+    }
+
+    .info-container h2,
+    .info-container h3 {
+        margin-top: 0; /* Remove default margin for better alignment */
+    }
+
+    .box {
+        width: calc(20% - 20px); /* 20% width with 10px margin on each side */
+        height: 80%; /* 80% height of the parent container */
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: 10px;
+        line-height: calc(50vh * 0.8); /* Center text vertically */
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+<div class="title">
+    <h1>PRODUCTS FROM DRY LEAVES</h1>
+</div>
+<div class="card-container">
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=_PL0yQDz5yM" target="_blank">
+        <img src="../images/bagasse_products/packaging.jpg" alt="Bagasse Product"></a>
+        <div class="card-content">
+            <h3>Biodegradable Packaging</h3>
+            <p> Bagasse can be molded into packaging materials, such as trays, plates, bowls, and containers, which are compostable and eco-friendly..</p>
+        </div>
+    </div>
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=S-xQh6ezulA" target="_blank">
+        <img src="../images/bagasse_products/tableware.jpg" alt="Dry Leaves Product"></a>
+        <div class="card-content">
+            <h3>Tableware</h3>
+            <p>Bagasse can be used to make disposable cutlery, cups, and plates, providing a sustainable alternative to traditional plastic or paper products.</p>
+        </div>
+    </div>
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=HVuvbmbUiAY" target="_blank">
+        <img src="../images/bagasse_products/paperproducts.jpg" alt="Grape Marc Product"></a>
+        <div class="card-content">
+            <h3>Paper Products</h3>
+            <p>C Bagasse fibers can be used to produce paper products, including copy paper, notebooks, and tissue paper, offering a more environmentally friendly option compared to conventional paper made from trees.</p>
+        </div>
+    </div>
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=RFeG4S6WuJ4" target="_blank">
+        <img src="../images/bagasse_products/construction.jpg" alt="Manure Product"></a>
+        <div class="card-content">
+            <h3>Construction</h3>
+            <p>Convert bagasse fibers into self-binding fibers using water and machines. Mold into desired shapes for packaging or tableware.</p>
+        </div>
+    </div>
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=cOt6uLbSm2I" target="_blank">
+        <img src="../images/bagasse_products/animalfeed.jpg" alt="Husk Product"></a>
+        <div class="card-content">
+            <h3>Animal feed</h3>
+            <p>Bagasse can be processed and used as a component in animal feed, providing a nutritious and fibrous supplement for livestock.</p>
+        </div>
+    </div> 
+</body>
+</html>

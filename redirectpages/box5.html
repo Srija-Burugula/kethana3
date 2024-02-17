@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Background Image Example</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("../dullimages/manure.jpg"); /* Replace 'your_image.jpg' with your image path */
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        color: white; /* Text color */
+    }
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .card {
+        width: 300px;
+        height: 70vh; /* 70% of viewport height */
+        background-color: white;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .card img {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .card-content {
+        color:black;
+        padding: 15px;
+    }
+
+    .card-content h3 {
+        margin-top: 0;
+    }
+
+    .card-content p {
+        margin-bottom: 0;
+    }
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh; /* 50% of viewport height */
+        padding: 50px;
+    }
+    .title {
+        text-align: center;
+        color: white;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    }
+    .info-container {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 600px; /* Limit width for better readability */
+    }
+
+    .info-container h2,
+    .info-container h3 {
+        margin-top: 0; /* Remove default margin for better alignment */
+    }
+
+    .box {
+        width: calc(20% - 20px); /* 20% width with 10px margin on each side */
+        height: 80%; /* 80% height of the parent container */
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: 10px;
+        line-height: calc(50vh * 0.8); /* Center text vertically */
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+<div class="title">
+    <h1>PRODUCTS FROM MANURE</h1>
+</div>
+<div class="card-container">
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=7z9Bn44P9OY" target="_blank">
+        <img src="../images/manure_products/biogas.jpg" alt="Bagasse Product"></a>
+        <div class="card-content">
+            <h3>Biogas</h3>
+            <p> Manure can be used in anaerobic digesters to produce biogas, a renewable energy source composed mainly of methane and carbon dioxide. Biogas can be used for heating, electricity generation, and as a vehicle fuel.</p>
+        </div>
+    </div>
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=ziCx7-QM0AI" target="_blank">
+        <img src="../images/manure_products/fertilizer.jpg" alt="Dry Leaves Product"></a>
+        <div class="card-content">
+            <h3>Fertilizer</h3>
+            <p>Manure is a rich source of nutrients such as nitrogen, phosphorus, and potassium, making it an excellent natural fertilizer for crops. It helps improve soil fertility, structure, and water retention.</p>
+        </div>
+    </div>
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=Ukln4q9ZgLI" target="_blank">
+        <img src="../images/manure_products/methane capture.jpg" alt="Grape Marc Product"></a>
+        <div class="card-content">
+            <h3>Methane</h3>
+            <p>Methane is a potent greenhouse gas emitted from manure. However, capturing methane from manure through anaerobic digestion not only reduces greenhouse gas emissions but also produces renewable energy.</p>
+        </div>
+</body>
+</html>

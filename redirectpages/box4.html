@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Background Image Example</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("../dullimages/husk.jpeg"); /* Replace 'your_image.jpg' with your image path */
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        color: white; /* Text color */
+    }
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .card {
+        width: 300px;
+        height: 70vh; /* 70% of viewport height */
+        background-color: white;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .card img {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .card-content {
+        color:black;
+        padding: 15px;
+    }
+
+    .card-content h3 {
+        margin-top: 0;
+    }
+
+    .card-content p {
+        margin-bottom: 0;
+    }
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh; /* 50% of viewport height */
+        padding: 50px;
+    }
+    .title {
+        text-align: center;
+        color: white;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    }
+    .info-container {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 600px; /* Limit width for better readability */
+    }
+
+    .info-container h2,
+    .info-container h3 {
+        margin-top: 0; /* Remove default margin for better alignment */
+    }
+
+    .box {
+        width: calc(20% - 20px); /* 20% width with 10px margin on each side */
+        height: 80%; /* 80% height of the parent container */
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: 10px;
+        line-height: calc(50vh * 0.8); /* Center text vertically */
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+<div class="title">
+    <h1>PRODUCTS FROM HUSK</h1>
+</div>
+<div class="card-container">
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=Wnyq9Shbrr0" target="_blank">
+        <img src="../images/husk_productss/biochar.jpg" alt="Bagasse Product"></a>
+        <div class="card-content">
+            <h3>Biochar</h3>
+            <p>Husks, when subjected to pyrolysis, can be turned into biochar, a type of charcoal used in soil amendment and carbon sequestration.</p>
+        </div>
+    </div>
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=8f1mQEHz3nY" target="_blank">
+        <img src="../images/husk_productss/biofuel.jpg" alt="Dry Leaves Product"></a>
+        <div class="card-content">
+            <h3>Biofuel</h3>
+            <p>Rice husks and coconut husks can be used to produce biofuels such as bioethanol and biogas through processes like gasification and fermentation.</p>
+        </div>
+    </div>
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=iWbmo0uNIcM" target="_blank">
+        <img src="../images/husk_productss/fiber.jpg" alt="Grape Marc Product"></a>
+        <div class="card-content">
+            <h3>Fiber</h3>
+            <p>Coconut husks are processed to extract coir fiber, which is used to make ropes, mats, and other products. Rice husks can also be used to produce fiber.</p>
+        </div>
+    </div>
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=WLqFYOxk1zw" target="_blank">
+        <img src="../images/husk_productss/fiberboard.jpg" alt="Manure Product"></a>
+        <div class="card-content">
+            <h3>Fiber boards</h3>
+            <p>Coconut husks can be processed into fiberboard, a type of engineered wood product used in furniture and construction.</p>
+        </div>
+    </div>
+    <div class="card">
+        <a href="https://www.youtube.com/watch?v=nuunx49VRBM" target="_blank">
+        <img src="../images/husk_productss/pots.jpg" alt="Husk Product"></a>
+        <div class="card-content">
+            <h3>Pots</h3>
+            <p>Coir pots are biodegradable pots made from coconut husks. These pots are used in gardening and nursery operations.</p>
+        </div>
+    </div>
+</body>
+</html>
